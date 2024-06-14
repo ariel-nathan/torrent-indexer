@@ -1,0 +1,20 @@
+{
+  "name": "torrent-indexer",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch run src/index.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@types/bun": "latest",
+    "eslint": "9.x",
+    "globals": "^15.4.0",
+    "prettier": "^3.3.2",
+    "typescript-eslint": "^7.13.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
